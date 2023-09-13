@@ -1,0 +1,416 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(./images/background-net.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+}
+#nav #left img{
+    width: 20%;
+    padding-right: 50px;
+}
+#nav #right{
+    display: flex;
+    gap: 20px;
+}
+#nav #right select{
+    background-color: black;
+    color: white;
+    width: 8rem;
+    height: 2rem;
+    border-radius: 5px;
+    padding-left: 1.5rem;
+}
+#nav #right button{
+    background-color: red;
+    color: white;
+    width: 50%;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+#right{
+    position: relative;
+}
+#right i{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 4%;
+}
+#unlim{
+    text-align: center;
+    color: white;
+    margin-top: 15%;
+}
+#unlim h1{
+    font-size: 50px;
+    margin: 0px;
+}
+#unlim p{
+    font-size: 20px;
+
+}
+#unlim #input{
+    width: 25%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.742);
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: white;
+}
+#unlim button{
+    width: 15%;
+    height: 43px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+}
+#unlim #par{
+    font-size: 25px;
+}
+#unlim input::placeholder{
+    font-size: 15px;
+    padding: 5px;
+}
+#enjoy{
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 20rem;
+    align-items: center;
+    justify-content: space-between;
+}
+#enjoy div{
+    width: 45%;
+}
+#enjoy #text h1{
+    font-size: 3rem;
+}
+#enjoy #text p{
+    font-size: 1.8rem;
+}
+#enjoy #tv img{
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+#tv{
+    position: relative;
+}
+#enjoy #tv video{
+    position: absolute;
+    top: 20%;
+    left: 13%;
+    width: 73%;
+    z-index: 1;
+}
+#down{
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 10rem;
+    align-items: center;
+    justify-content: space-between;
+}
+#down #mobile{
+    width: 45%;
+    position: relative;
+}
+#down #mobile #img{
+    width: 100%;
+    /* z-index: 1; */
+}
+#down #load{
+    width: 45%;
+}
+#down #load h1{
+    font-size: 3.5rem;
+}
+#down #load p{
+    font-size: 1.5rem;
+    
+}
+#box{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #5a5a5a ;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 0%;
+    left: 17%;
+    background-color: black;
+
+    
+}
+#box #strange{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#box #strange img{
+    width: 4rem;
+}
+#box #strange h4{
+    font-size: 1rem;
+    margin-bottom: 0px;
+}
+#box #strange h5{
+    margin-top: 0px;
+    color: blue;
+}
+#gif img{
+    width: 3rem;
+}
+#child{
+    color: white;
+    display: flex;
+    margin: auto;
+    margin-top: 10rem;
+    width: 75%;
+    align-items: center;
+}
+#child img{
+    width: 160%;
+}
+#child h1{
+    font-size: 3rem;
+    width: 80%;
+}
+#child p{
+    font-size: 1.6rem;
+    width: 85%;
+}
+#child #create{
+    margin-left: 11rem;
+    padding-top: -4rem;
+}
+#wat{
+    color: white;
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 10rem;
+    align-items: center;
+    justify-content: space-between;
+}
+#wat div{
+    width: 45%;
+}
+#wat #watch h1{
+    font-size: 3.5rem;
+}
+#wat #watch p{
+    font-size: 1.6rem;
+}
+#wat #tv2 img{
+    width: 100%;
+    position: relative;
+    margin-top: 2rem;
+    z-index: 2;
+}
+#tv2{
+    position: relative;
+}
+#wat #tv2 video{
+    position: absolute;
+    width: 62%;
+    top: 17%;
+    left: 19%;
+    z-index: 1;
+}
+
+/* ----mobile---- */
+@media (max-width: 600px){
+    #nav{
+        padding: 1rem 1rem;    
+}
+#nav #left img{
+    width: 40%;
+}
+#nav #right{
+    gap: 10px;
+}
+#nav #right select{
+    width: 3rem;
+    height: 2rem;
+}
+#right i{
+    left: 10%;
+}
+#nav #right button{
+    width: 100%;
+    height: 1.9rem;
+}
+body{
+    background-size: 235%;
+}
+
+#unlim{
+    margin-top: 2.2rem;
+    padding: 0rem 2rem;
+    text-align: center;
+}
+#unlim h1{
+    font-size: 2.2rem;
+    margin: 0px;
+}
+#unlim #par{
+    font-size: 1.2rem;
+}
+#unlim p{
+    font-size: 1.2rem;
+    padding: 0rem 2rem;
+
+}
+#unlim #input{
+    width: 84%;
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+#unlim button{
+    width: 40%;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    margin-top: 1rem;
+}
+
+#enjoy{
+    display: block;
+    width: 80%;
+    margin-top: 4rem;
+}
+#enjoy div{
+    width: 95%;
+    margin: auto;
+}
+#enjoy #text h1{
+    font-size: 2.1rem;
+    padding: 1rem;
+    padding-bottom: 0px;
+}
+#enjoy #text p{
+    font-size: 1.25rem;
+    padding: 0px 0px;
+    padding-top: 0px;
+}
+#enjoy #tv img{
+    width: 110%;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+#down{
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 8rem;
+    justify-content: center;
+    margin: 0px 35px;
+}
+#down #mobile{
+    width: 90%;
+    position: relative;
+}
+#down #mobile #img{
+    width: 100%;
+    /* z-index: 1; */
+}
+#down #load{
+    width: 90%;
+}
+#down #load h1{
+    font-size: 2rem;
+    text-align: center;
+}
+#down #load p{
+    font-size: 1.3rem;
+    text-align: center;   
+}
+#box{
+    width: 70%;
+    bottom: 5%;
+    left: 11%;
+    height: 2.8rem;
+}
+#box #strange{
+    gap: 10px;
+}
+#box #strange img{
+    width: 2rem;
+}
+#wat{
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 0rem 2rem;
+}
+#wat div{
+    width: 90%;
+}
+#wat #watch h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#wat #watch p{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#wat #tv2 img{
+    width: 120%;
+    position: relative;
+    margin-top: 2rem;
+    z-index: 2;
+    margin: 0px -15px;
+}
+#wat #tv2 video{
+    width: 75%;
+    top: 12%;
+    left: 17%;
+}
+#child{
+    display: block;
+    margin-top: 6rem;
+    width: 90%;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+#child img{
+    width: 100%;
+}
+#child h1{
+    font-size: 2rem;
+    width: 90%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#child p{
+    font-size: 1.3rem;
+    width: 95%;
+}
+#child #create{
+    margin-left: 1.5rem;
+    padding-top: -4rem;
+}
+}
+    
